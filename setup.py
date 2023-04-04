@@ -20,9 +20,15 @@ if __name__ == '__main__':
 			"behaviour",
 			"relational database",
 			"SQL",
-			],
+		],
 		classifiers = [],
-		install_requires = [],
+		install_requires = [
+			"argh>=0.26.2",
+			"numpy",
+			"pandas",
+			"simplejson>=3.8.0",
+			"SQLAlchemy",
+		],
 		provides = ["labbookdb"],
 		packages = [
 			"labbookdb",
